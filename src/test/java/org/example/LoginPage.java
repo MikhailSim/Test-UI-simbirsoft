@@ -57,7 +57,7 @@ public class LoginPage {
 
 
     public void inputLogin(String login) {
-        loginField.sendKeys("t.simbirsoft@yandex.ru"); }
+        loginField.sendKeys("SimbirsoftQAtest@yandex.ru"); }
     public void inputPasswd(String passwd) {
         passwdField.sendKeys("Qwerty_123456+"); }
     public void clickLoginBtn() {

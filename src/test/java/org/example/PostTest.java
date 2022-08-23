@@ -26,7 +26,7 @@ public class PostTest {
 
     @Test
     public void postTest() throws InterruptedException {
-        loginPage.inputLogin(ConfProperties.getProperty("t.simbirsoft@yandex.ru"));
+        loginPage.inputLogin(ConfProperties.getProperty("SimbirsoftQAtest@yandex.ru"));
         loginPage.clickLoginBtn();
         loginPage.inputPasswd(ConfProperties.getProperty("Qwerty_123456+"));
         loginPage.clickPasswdBtn();
